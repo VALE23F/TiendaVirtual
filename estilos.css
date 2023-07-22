@@ -1,7 +1,13 @@
-.posCarrusel{ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
 
-    transform: translateX(50%);
+.posCarrusel{ 
     position: relative;
+    transform: translateX(50%);
+    
 }
 
 .tamañoImg{
@@ -9,9 +15,6 @@
     
         
 }
-
-
-
 
 .tamañoImg img{
  width: 100%;
